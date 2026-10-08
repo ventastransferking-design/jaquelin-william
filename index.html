@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Para Jaquelin — De William ❤️</title>
+<meta name="description" content="Un pequeño rincón de nuestros recuerdos, hecho especialmente para Jaquelin.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+:root{--bg:#100916;--card:#1c1020;--pink:#f59ac2;--pink2:#ffcadf;--purple:#a98bff;--text:#fff7fc;--muted:#d9c9d7}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(circle at 20% 10%,#43204e 0,transparent 32%),radial-gradient(circle at 90% 30%,#39266a 0,transparent 30%),linear-gradient(160deg,#100916,#170d1f 55%,#0b0710);color:var(--text);font-family:"DM Sans",sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(#fff 0.6px,transparent 0.6px);background-size:36px 36px;opacity:.08}
+nav{position:fixed;z-index:20;left:50%;transform:translateX(-50%);bottom:18px;background:rgba(22,12,28,.76);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:8px;display:flex;gap:6px;box-shadow:0 12px 40px #0008}
+nav a{color:#fff;text-decoration:none;font-size:12px;padding:10px 14px;border-radius:999px}nav a:hover{background:#ffffff18}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:40px 20px;position:relative;overflow:hidden}
+.glow{position:absolute;width:480px;height:480px;border-radius:50%;background:radial-gradient(circle,#e68bb755,transparent 68%);filter:blur(8px);animation:pulse 5s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.15);opacity:.65}}
+.heart{font-size:42px;filter:drop-shadow(0 0 18px #f59ac2);animation:float 3s ease-in-out infinite} @keyframes float{50%{transform:translateY(-8px)}}
+.eyebrow{letter-spacing:4px;text-transform:uppercase;color:#f8bdd8;font-size:11px}
+h1{font-family:"Playfair Display",serif;font-size:clamp(54px,13vw,120px);line-height:.9;margin:16px 0;background:linear-gradient(120deg,#fff,#f8b7d6 45%,#bba6ff);-webkit-background-clip:text;color:transparent}
+.subtitle{max-width:620px;margin:0 auto;color:var(--muted);font-size:17px;line-height:1.7}
+.cta{display:inline-flex;margin-top:30px;padding:14px 22px;border-radius:999px;background:linear-gradient(100deg,#f08ebd,#9f8bff);color:white;text-decoration:none;font-weight:700;box-shadow:0 10px 35px #bc80ba44}
+section{padding:100px 20px;max-width:1100px;margin:auto}.section-title{font-family:"Playfair Display";font-size:42px;text-align:center;margin:0 0 14px}.section-sub{text-align:center;color:var(--muted);margin:0 auto 45px;max-width:650px;line-height:1.7}
+.gallery{columns:3 240px;column-gap:16px}.photo{break-inside:avoid;margin:0 0 16px;border-radius:20px;overflow:hidden;border:1px solid #fff1;background:#fff1;box-shadow:0 15px 40px #0005;cursor:pointer;transition:.35s}.photo:hover{transform:translateY(-4px);box-shadow:0 20px 50px #0008}.photo img{display:block;width:100%;height:auto}
+.letter-wrap{max-width:820px;margin:auto;position:relative}.letter{background:linear-gradient(145deg,#fffaff,#f8edf7);color:#3a2036;border-radius:28px;padding:clamp(28px,6vw,65px);box-shadow:0 30px 80px #0007;position:relative;overflow:hidden}.letter:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 90% 0,#f3a9cf66,transparent 30%),radial-gradient(circle at 0 100%,#aa8cff55,transparent 32%);pointer-events:none}.letter-content{position:relative;font-family:"Playfair Display",serif;font-size:18px;line-height:1.85}.letter-content .saludo{font-size:32px;color:#a45a91;font-style:italic;margin-bottom:22px}.signature{font-size:30px;color:#9c6397;font-style:italic;text-align:right;margin-top:28px}
+.quote{text-align:center;padding:80px 20px;font-family:"Playfair Display";font-style:italic;font-size:clamp(25px,5vw,46px);line-height:1.25;color:#ffe9f5}.quote span{color:#e8b7ff}
+.memory-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.memory{padding:24px;border:1px solid #fff2;background:linear-gradient(145deg,#ffffff0d,#ffffff04);border-radius:22px;text-align:center}.memory .icon{font-size:28px}.memory h3{font-family:"Playfair Display";font-size:22px;margin:12px 0 8px}.memory p{color:var(--muted);line-height:1.6;margin:0;font-size:14px}
+.final{text-align:center;padding-bottom:150px}.final h2{font-family:"Playfair Display";font-size:48px;margin-bottom:12px}.final p{color:var(--muted)}.mini-heart{color:#ff9fc7;font-size:30px}
+.modal{position:fixed;inset:0;background:#070409eF;z-index:50;display:none;align-items:center;justify-content:center;padding:20px}.modal.show{display:flex}.modal img{max-width:min(94vw,900px);max-height:88vh;border-radius:18px;box-shadow:0 25px 90px #000}.close{position:absolute;right:24px;top:18px;color:white;font-size:36px;cursor:pointer}
+@media(max-width:650px){.memory-grid{grid-template-columns:1fr}section{padding:75px 15px}nav a{padding:9px 10px;font-size:11px}}
+</style>
+</head>
+<body>
+<nav><a href="#inicio">Inicio</a><a href="#fotos">Fotos</a><a href="#carta">Carta</a><a href="#historia">Nosotros</a></nav>
+
+<header class="hero" id="inicio">
+<div class="glow"></div><div style="position:relative">
+<div class="heart">♡</div>
+<div class="eyebrow">Un pequeño lugar para nosotros</div>
+<h1>Jaquelin</h1>
+<p class="subtitle">Hay personas que llegan a nuestra vida y terminan convirtiéndose en parte de nuestros recuerdos favoritos. Esta página es para ti.</p>
+<a class="cta" href="#carta">Abrir mi carta ✦</a>
+</div>
+</header>
+
+<section id="fotos">
+<h2 class="section-title">Nuestros momentos</h2>
+<p class="section-sub">Cada foto guarda un pedacito de nuestra historia. Algunas cuentan una aventura; otras, simplemente un momento que valió la pena guardar.</p>
+<div class="gallery">
+<figure class="photo"><img src="fotos/foto-01.jpg" loading="lazy" alt="Recuerdo 1" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-02.jpg" loading="lazy" alt="Recuerdo 2" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-03.jpg" loading="lazy" alt="Recuerdo 3" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-04.jpg" loading="lazy" alt="Recuerdo 4" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-05.jpg" loading="lazy" alt="Recuerdo 5" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-06.jpg" loading="lazy" alt="Recuerdo 6" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-07.jpg" loading="lazy" alt="Recuerdo 7" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-08.jpg" loading="lazy" alt="Recuerdo 8" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-09.jpg" loading="lazy" alt="Recuerdo 9" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-10.jpg" loading="lazy" alt="Recuerdo 10" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-11.jpg" loading="lazy" alt="Recuerdo 11" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-12.jpg" loading="lazy" alt="Recuerdo 12" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-13.jpg" loading="lazy" alt="Recuerdo 13" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-14.jpg" loading="lazy" alt="Recuerdo 14" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-15.jpg" loading="lazy" alt="Recuerdo 15" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-16.jpg" loading="lazy" alt="Recuerdo 16" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-17.jpg" loading="lazy" alt="Recuerdo 17" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-18.jpg" loading="lazy" alt="Recuerdo 18" onclick="openImg(this.src)"></figure><figure class="photo"><img src="fotos/foto-19.jpg" loading="lazy" alt="Recuerdo 19" onclick="openImg(this.src)"></figure>
+</div>
+</section>
+
+<div class="quote">“Si pudiera volver a elegir entre todos los caminos,<br><span>volvería a buscar el que me lleva hasta ti.</span>”</div>
+
+<section id="carta">
+<h2 class="section-title">Para ti, Jaquelin</h2>
+<p class="section-sub">Algo que quería decirte de una manera diferente.</p>
+<div class="letter-wrap"><article class="letter"><div class="letter-content">
+<div class="saludo">Mi querida Jaquelin,</div>
+Jaquelin,<br><br>Si pudiera volver a empezar nuestra historia una y otra vez, creo que volvería a encontrarte.<br>No porque todo tenga que ser perfecto, sino porque entre tantos caminos, tantas personas y tantos momentos,<br>hay algo que siempre me haría detenerme: tú.<br><br>Me gusta pensar que, aunque cambiáramos de lugar, de tiempo o de circunstancias, habría una forma de reconocerte.<br>Tal vez sería una mirada, una sonrisa, una canción o simplemente esa sensación de que estoy exactamente donde quiero estar.<br><br>Gracias por cada recuerdo que hemos construido, por las risas, por las locuras, por los momentos tranquilos<br>y también por todo aquello que todavía nos falta vivir.<br><br>Estas fotos son solamente una pequeña parte de nuestra historia. Lo que de verdad quiero guardar<br>son todos esos instantes que no caben en una pantalla: las conversaciones, los abrazos, las bromas,<br>los días buenos y los días en los que simplemente estuvimos ahí el uno para el otro.<br><br>Jaquelin, quiero que cuando veas esta página recuerdes algo:<br>entre millones de personas, yo tuve la suerte de coincidir contigo.<br><br>Y si la vida me diera la oportunidad de elegir una y otra vez,<br>volvería a elegirte.<br><br>Con todo mi cariño,<br><br>William ❤️
+</div></article></div>
+</section>
+
+<section id="historia">
+<h2 class="section-title">Lo que quiero guardar</h2>
+<p class="section-sub">No solamente las fotografías, sino todo lo que representan.</p>
+<div class="memory-grid">
+<div class="memory"><div class="icon">📸</div><h3>Los recuerdos</h3><p>Esos pequeños momentos que quizá parecían normales, pero que hoy tienen un lugar especial.</p></div>
+<div class="memory"><div class="icon">✨</div><h3>Las aventuras</h3><p>Todo lo que hemos vivido y todas esas historias que todavía nos faltan por escribir.</p></div>
+<div class="memory"><div class="icon">♡</div><h3>Lo que viene</h3><p>Porque esta página guarda el pasado, pero mi parte favorita es saber que aún quedan muchos momentos por crear.</p></div>
+</div>
+</section>
+
+<section class="final">
+<div class="mini-heart">♥</div>
+<h2>Siempre tú.</h2>
+<p>Hecho con cariño por William, especialmente para Jaquelin.</p>
+</section>
+
+<div class="modal" id="modal" onclick="closeImg()"><div class="close">×</div><img id="modalImg" alt="Foto ampliada"></div>
+<script>
+function openImg(src){document.getElementById('modalImg').src=src;document.getElementById('modal').classList.add('show')}
+function closeImg(){document.getElementById('modal').classList.remove('show')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeImg()})
+</script>
+</body></html>
